@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3{
+    flex: 1;
+    padding: 10;
+    background-color: silver;
+}
+.row{
+    display: flex;
+}
+
+nav{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navegacion{
+    display: flex;
+    background-color: black;
+    padding: 5px;
+}
+
+.titulo{
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    text-align: start;
+    padding: 20px;
+}
+.medio{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: silver;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.names li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.logo{
+width: 50px;
+border-radius: 50%;
+margin-left: 25px;
+}
+.negro{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.alert{
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+.pregunta h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.icon{
+    width: 96px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer{
+    background-color: silver;
+    height: 170px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin:  0 auto;
+}
+.sim{
+    width: 1200px;
+    margin: 0 auto;
+}
+.sigue{
+    margin-bottom: 5px;
+    text-decoration: 3px underline rgba(218, 3, 3, 0.788);
+}
+.siguenos a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+}
+.siguenos a:hover{
+text-decoration: underline;
+}
+.guia{
+    width: 950px;
+    font-size: 35px;
+    text-align: center;
+}
+.respuesta1{
+    background-color: rgb(185, 235, 185);
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.p1{
+    font-size: 25px;
+    width: 600px;
+    font-weight: bold;
+    text-align: center;
+ }
+ .productos{
+    width: 330px;
+    height: 260px;
+    border-radius: 10px;
+ }
+
+
+
+
+.icon{
+margin-bottom: 30px;
+}
+
+.info{
+    width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    font-size: 25px;
+    background-color: silver;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}
+.borde{
+    border: 2px solid black;
+}
+
+h2{
+    font-size: 30px;
+    background-color: silver;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+h4{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.p2{
+    font-size: 15px;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
+.images{
+    width: 80px;
+    margin-left: 60px;
+}
